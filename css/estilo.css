@@ -1,0 +1,49 @@
+body{
+background-color: #d7d7d7;
+
+}
+
+.contenedor{
+/* altura falsa */
+height: 100vh;
+/* fondo de la web */
+background-color: #F9F9E2;
+/* ancho controlado */
+max-width: 1366px;
+/* siempre en el centro de todas las pantallas */
+margin: 0 auto;
+/*  */
+box-sizing: border-box;
+padding: 25px 25px 0 25px;
+}
+
+
+.circulo{
+    height:200px;
+    width: 200px;
+    background-color: orange;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+
+header{
+    display: flex;
+    align-items: center;
+}
+.azul{
+    /* color */
+    background-color: blue;
+    /* forma */
+    height: 200px;
+    /* margen */
+  flex-grow: 1;
+}
+.rectangulo{
+    /*  */
+    height:600px;
+    background-color: orange;
+    margin-top: 100px;
+    border-radius: 150px;
+   
+ }
