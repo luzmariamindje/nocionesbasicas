@@ -7,7 +7,7 @@ background-color: #d7d7d7;
 /* altura falsa */
 height: 100vh;
 /* fondo de la web */
-background-color: #F9F9E2;
+background-color: #e4e48d;
 /* ancho controlado */
 max-width: 1366px;
 /* siempre en el centro de todas las pantallas */
@@ -46,4 +46,11 @@ header{
     margin-top: 100px;
     border-radius: 150px;
    
+ }
+ .rectangulo_pequeño{
+    /*  */
+    height:300px;
+    background-color: rgb(230, 227, 222);
+    margin-top: 100px;
+    border-radius: 10px;
  }
