@@ -50,7 +50,7 @@ header{
  .rectangulo_pequeño{
     /*  */
     height:300px;
-    background-color: rgb(230, 227, 222);
+  
     margin-top: 100px;
     border-radius: 10px;
  }
@@ -72,7 +72,6 @@ header{
 }
  .rectangulo_verde{
     /* color */
-    background-color: rgb(31, 141, 55);
     /* forma */
     height: 300px;
     /* margen  se queda con todo lo que tiene de epacio*/
@@ -89,4 +88,5 @@ header{
  }
 .reverso{
     flex-flow: row-reverse nowrap;
+    text-align: right;
 }
