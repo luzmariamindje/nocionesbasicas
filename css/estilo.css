@@ -1,120 +1,113 @@
-body{
-background-color: #d7d7d7;
-
+body {
+  background-color: #d7d7d7;
 }
 
-.contenedor{
-/* altura falsa */
+.contenedor {
+  /* altura falsa */
 
-/* fondo de la web */
-background-color: #e4e48d;
-/* ancho controlado */
-max-width: 1366px;
-/* siempre en el centro de todas las pantallas */
-margin: 0 auto;
-/*  */
-box-sizing: border-box;
-
+  /* fondo de la web */
+  background-color: #e4e48d;
+  /* ancho controlado */
+  max-width: 1366px;
+  /* siempre en el centro de todas las pantallas */
+  margin: 0 auto;
+  /*  */
+  box-sizing: border-box;
 }
 
-
-.circulo{
-    height:200px;
-    width: 200px;
-    background-color: orange;
-    border-radius: 50%;
-    margin: 20px;
+.circulo {
+  height: 200px;
+  width: 200px;
+  background-color: orange;
+  border-radius: 50%;
+  margin: 20px;
 }
 
-
-header{
-    display: flex;
-    align-items: center;
+header {
+  display: flex;
+  align-items: center;
+  padding: 35px 35px 0 60px;
 }
-.azul{
-    /* color */
-    background-color: blue;
-    /* forma */
-    height: 200px;
-    /* margen */
+.azul {
+  /* color */
+  background-color: blue;
+  /* forma */
+  height: 200px;
+  /* margen */
   flex-grow: 1;
- margin-right: 40px;
+  margin-right: 40px;
 }
-.rectangulo{
-    /*  */
-    height:600px;
-    background-color: orange;
-    margin-top: 100px;
-    border-radius: 150px;
-    margin-left: 50px;
-    margin-right: 50px;
-   
- }
- .rectangulo_pequeño{
-    /*  */
-    height:300px;
+
+/* Padre rectangulo blanco y naranja */
+.rectangulo_blanco_naranja{
+    padding: 35px 35px 0 60px;
+}
+
+.rectangulo {
+  height: 600px;
+  background-color: orange;
+  margin-top: 100px;
+  border-radius: 150px;
+}
+
+.rectangulo_pequeño {
+  height: 300px;
   background-color: #dac4c4;
-    margin-top: 100px;
-    border-radius: 10px;
-    margin-left: 50px;
-    margin-right: 50px;
- }
-
- .section1{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 30px;
- }
-
- .circulo_verde{
-    height:300px;
-    width: 300px;
-    background-color: rgb(0, 255, 98);
-    border-radius: 50%;
-    margin-top: 50px;
-
+  margin-top: 100px;
+  border-radius: 10px;
 }
- .rectangulo_verde{
-    /* color */
-    background-color: green;
-    /* forma */
-    height: 300px;
-    /* margen  se queda con todo lo que tiene de epacio*/
-   flex-basis: 70%;
+
+.section1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 100px 0;
+  padding: 35px 35px 0 60px;
+}
+
+.circulo_verde {
+  height: 300px;
+  width: 300px;
+  background-color: rgb(0, 255, 98);
+  border-radius: 50%;
+  margin-top: 50px;
+}
+.rectangulo_verde {
+  /* color */
+  background-color: green;
+  /* forma */
+  height: 300px;
+  /* margen  se queda con todo lo que tiene de epacio*/
+  flex-basis: 70%;
   margin-top: 50px;
   border-radius: 10px;
 }
 
-.section2{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 30px;
- }
-.reverso{
-    flex-flow: row-reverse nowrap;
+.section2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px;
 }
-footer{
-background-color: black;
-    max-width: 1366px;
-/* siempre en el centro de todas las pantallas */
-margin: 0 auto;
-/*  */
-box-sizing: border-box;
-padding: 25px 25px 0 25px;
-height: 800px;
-margin-top: 100px;
-
+.reverso {
+  flex-flow: row-reverse nowrap;
 }
-
-.circulo2{
-    height:200px;
-    width: 200px;
-    background-color: orange;
-    border-radius: 50%;
-    margin: 20px;
+footer {
+  background-color: black;
+  max-width: 1366px;
+  /* siempre en el centro de todas las pantallas */
+  margin: 0 auto;
+  /*  */
+  box-sizing: border-box;
+  padding: 25px 25px 0 25px;
+  height: 800px;
+  margin-top: 100px;
 }
 
-
-
+.circulo2 {
+  height: 200px;
+  width: 200px;
+  background-color: orange;
+  border-radius: 50%;
+  margin: 20px;
+}
