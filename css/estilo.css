@@ -79,7 +79,6 @@ header {
   height: 300px;
   /* margen  se queda con todo lo que tiene de epacio*/
   flex-basis: 70%;
-  margin-top: 50px;
   border-radius: 10px;
 }
 
@@ -92,16 +91,12 @@ header {
 .reverso {
   flex-flow: row-reverse nowrap;
 }
+
 footer {
   background-color: black;
   max-width: 1366px;
-  /* siempre en el centro de todas las pantallas */
-  margin: 0 auto;
-  /*  */
-  box-sizing: border-box;
-  padding: 25px 25px 0 25px;
+  padding: 80px 35px 0 60px;
   height: 800px;
-  margin-top: 100px;
 }
 
 .circulo2 {
@@ -109,5 +104,5 @@ footer {
   width: 200px;
   background-color: orange;
   border-radius: 50%;
-  margin: 20px;
+  
 }
